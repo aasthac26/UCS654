@@ -18,25 +18,25 @@ Methodology
 5. Train models and evaluate using accuracy.
 
 Sampling Techniques Used
-* No Sampling: Original imbalanced data (baseline)
-* SMOTE: Over-sampling of minority class
-* Random Under-Sampling: Reduces majority class
-* SMOTE + Tomek: Over-sampling with noise removal
+1. No Sampling: Original imbalanced data (baseline)
+2. SMOTE: Over-sampling of minority class
+3. Random Under-Sampling: Reduces majority class
+4. SMOTE + Tomek: Over-sampling with noise removal
 
 Models Used
-* Logistic Regression
-* Decision Tree Classifier
-* Random Forest Classifier
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
 
 Result Table
-* Displays model-wise accuracy for each sampling technique.
-* Helps compare the impact of sampling on each classifier.
+1. Displays model-wise accuracy for each sampling technique.
+2. Helps compare the impact of sampling on each classifier.
 
 Result Graph
-* Bar graph comparing accuracy scores.
-* X-axis: Model & sampling method
-* Y-axis: Accuracy
-* Used for quick visual comparison.
+1. Bar graph comparing accuracy scores.
+2. X-axis: Model & sampling method
+3. Y-axis: Accuracy
+4. Used for quick visual comparison.
 
 Conclusion
 Sampling techniques improve model performance on imbalanced data. SMOTE-based methods generally give better and more stable results, especially when combined with ensemble models like Random Forest.
